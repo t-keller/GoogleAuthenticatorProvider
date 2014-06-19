@@ -1,5 +1,5 @@
 {
-  "name": "t-keller/GoogleAuthenticatorProvider",
+  "name": "t-keller/google-authenticator-provider",
   "autoload": {
     "psr-0" : {
       "Tkeller\\GoogleAuthenticatorProvider" : "src"
