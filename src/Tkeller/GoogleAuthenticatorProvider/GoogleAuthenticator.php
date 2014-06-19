@@ -1,5 +1,5 @@
 <?php
-namespace TKeller\GoogleAuthenticatorProvider;
+namespace Tkeller\GoogleAuthenticatorProvider;
 
 /**
  * PHP Class for handling Google Authenticator 2-factor authentication
@@ -10,7 +10,7 @@ namespace TKeller\GoogleAuthenticatorProvider;
  * @link http://www.phpgangsta.de/
  */
 
-class PHPGangsta_GoogleAuthenticator
+class GoogleAuthenticator
 {
     protected $_codeLength = 6;
 

@@ -1,18 +1,15 @@
 <?php
-namespace TKeller\GoogleAuthenticatorProvider;
+namespace Tkeller\GoogleAuthenticatorProvider;
 
 use Silex\Application;
 use Silex\ServiceProviderInterface;
 
-class HelloServiceProvider implements ServiceProviderInterface
+class GoogleAuthenticatorProvider implements ServiceProviderInterface
 {
     public function register(Application $app)
     {
-        $app['hello'] = $app->protect(function ($name) use ($app) {
-            $default = $app['hello.default_name'] ? $app['hello.default_name'] : '';
-            $name = $name ?: $default;
-
-            return 'Hello '.$app->escape($name);
+        $app['google_authenticator'] = $app->share(function () {
+            return new GoogleAuthenticator();
         });
     }
 
