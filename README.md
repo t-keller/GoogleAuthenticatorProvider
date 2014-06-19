@@ -14,3 +14,5 @@ A GoogleAuthenticator object is available by calling:
     $app['google_authenticator']
 
 For more information about PHPGangsta/GoogleAuthenticator, see the documentation (https://github.com/PHPGangsta/GoogleAuthenticator)
+
+Silex website: http://silex.sensiolabs.org
