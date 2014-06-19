@@ -7,6 +7,8 @@ Google Authenticator provider for Silex based on PHPGangsta/GoogleAuthenticator
 
     $app->register(new Tkeller\GoogleAuthenticatorProvider\GoogleAuthenticatorProvider());
 
+### Use it
+
 A GoogleAuthenticator object is available by calling: 
 
     $app['google_authenticator']
