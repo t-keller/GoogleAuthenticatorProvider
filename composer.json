@@ -1,5 +1,7 @@
 {
   "name": "t-keller/google-authenticator-provider",
+  "description": "Google Authenticator provider for Silex based on PHPGangsta/GoogleAuthenticator",
+  "homepage": "https://github.com/t-keller/GoogleAuthenticatorProvider",
   "autoload": {
     "psr-0" : {
       "Tkeller\\GoogleAuthenticatorProvider" : "src"
